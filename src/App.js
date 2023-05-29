@@ -8,6 +8,10 @@ import ExampleEffect from "./components/UseEffect";
 import ExampleUseState from "./components/UseState";
 // useContext ✅
 import ExampleContext from "./components/UseContext";
+// useRef ✅
+import ExampleRef from "./components/UseRefs";
+// useRef ✅
+import ExampleMemo from "./components/UseMemo";
 export default function App() {
   return (
     <div className="App">
@@ -15,6 +19,8 @@ export default function App() {
       <ExampleEffect />
       <ExampleUseState />
       <ExampleContext />
+      <ExampleRef />
+      <ExampleMemo />
     </div>
   );
 }
