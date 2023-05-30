@@ -10,8 +10,10 @@ import React from "react";
 // import ExampleContext from "./components/UseContext";
 // useRef ✅
 // import ExampleRef from "./components/UseRefs";
-// useRef ✅
-import ExampleMemo from "./components/UseMemo";
+// useMemo ✅
+// import ExampleMemo from "./components/UseMemo";
+// useCallback ✅
+import ExampleCallback from "./components/useCallBack";
 export default function App() {
   return (
     <div className="App">
@@ -20,7 +22,7 @@ export default function App() {
       <ExampleUseState />
       <ExampleContext />
       <ExampleRef /> */}
-      <ExampleMemo value={3} />
+      <ExampleCallback />
     </div>
   );
 }
