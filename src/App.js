@@ -1,26 +1,26 @@
 // src/App.js
 import React from "react";
 // useReducer:✅
-import ExampleReducer from "./components/UseReducer";
+// import ExampleReducer from "./components/UseReducer";
 // useEffect ✅
-import ExampleEffect from "./components/UseEffect";
+// import ExampleEffect from "./components/UseEffect";
 // useState ✅
-import ExampleUseState from "./components/UseState";
+// import ExampleUseState from "./components/UseState";
 // useContext ✅
-import ExampleContext from "./components/UseContext";
+// import ExampleContext from "./components/UseContext";
 // useRef ✅
-import ExampleRef from "./components/UseRefs";
+// import ExampleRef from "./components/UseRefs";
 // useRef ✅
 import ExampleMemo from "./components/UseMemo";
 export default function App() {
   return (
     <div className="App">
-      <ExampleReducer />
+      {/* <ExampleReducer />
       <ExampleEffect />
       <ExampleUseState />
       <ExampleContext />
-      <ExampleRef />
-      <ExampleMemo />
+      <ExampleRef /> */}
+      <ExampleMemo value={3} />
     </div>
   );
 }
